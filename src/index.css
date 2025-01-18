@@ -6,15 +6,17 @@
     font-family: "Lato", serif;
 }
 body{
-    background-color: #FAF9F6;
+background-color:#F9F6EE;
 }
 .container{
     padding-left: 6%;
     padding-right: 7%;
 }
+.btn{
+    color: #001F3F;
+}
 button {
     transition: all .5s ease;
-    color: #6a644d;
     border: 3px solid white;
     text-transform: uppercase;
     text-align: center;
@@ -27,6 +29,8 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #001F3F;
+   
+    color: rgb(165, 99, 42);
+    font-weight: 700;
     background-color: #fff;
 }
