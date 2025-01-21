@@ -1,0 +1,49 @@
+.about{
+    margin-top: 90px;
+   display:flex;
+   justify-content: space-between;
+   align-items:center;
+}
+.aboutLeft {
+    position: relative;
+}
+
+ .aboutImg{
+    width: 60vmin;
+    border-radius: 10px;
+}
+.playBtn{
+    width: 50px;
+    top: 43%;
+    left: 40%; 
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.aboutRight{
+    padding: 38px;
+    border-radius: 20px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    background: radial-gradient(at bottom, #fdc47a, #ffeed7);
+    box-shadow: 9px 10px 30px rgba(236, 232, 232, 0.7); 
+   
+}
+.aboutRight h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.aboutRight p {
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+}
