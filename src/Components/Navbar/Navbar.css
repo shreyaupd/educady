@@ -20,6 +20,7 @@ nav ul li{
     font-size: larger;
     font-weight: 600;
     color:#2d2903;
+    cursor: pointer;
 }
 
 a{

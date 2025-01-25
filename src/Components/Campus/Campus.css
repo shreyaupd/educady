@@ -1,0 +1,21 @@
+.campus {
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .gallery img {
+    height: 290px;
+    border-radius: 25px;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 0px 10px 0px ;
+  }
+  

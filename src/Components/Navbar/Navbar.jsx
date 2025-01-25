@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css'; 
+import Button from '../Button/Button'
 import logo from '../../assets/logo.png';
 
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
         <li>About us</li>
         <li>Campus</li>
         <li>Testimonial</li>
-        <li><button className="btn">Contact Us</button></li>
+        <li ><Button buttons='Our Contacts'/></li>
         
       </ul>
     </nav>
