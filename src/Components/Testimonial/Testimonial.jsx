@@ -20,7 +20,7 @@ const Testimonial = () => {
                             <img src={user_1} alt="" />
                             <div>
                                 <h3>John Smith</h3>
-                                <span>Educady, USA</span>
+                                <span>Educady, US</span> {/*for now*/}
                             </div> 
                         </div>
                         <p>
