@@ -2,64 +2,87 @@
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
+    max-width: 800px; /* Ensures proper centering */
 }
 
+/* Navigation Buttons */
 .nextBtn,
 .backBtn {
     position: absolute;
     top: 50%;
-    right: 0;
     transform: translateY(-50%);
-    padding: 15px;
     width: 50px;
+    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     background-color: rgb(245, 191, 120);
+    z-index: 10; /* Ensures buttons are above the slider */
+}
 
+/* Positioning next & back buttons */
+.nextBtn {
+    right: -60px;
 }
 
 .backBtn {
-    right: auto;
-    left: 0;
+    left: -60px;
 }
 
-.slider {
+/* Swiper container */
+.swiper {
     overflow: hidden;
+    padding-bottom: 30px; /* Space for pagination dots */
 }
 
-.slider ul {
-    width: 200%;
+/* Swiper slide styling */
+.swiper-slide {
     display: flex;
-    transition: 0.5s;
-}
-
-.slider ul li {
-    list-style: none;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
+/* Testimonial card */
 .slide {
     box-shadow: 0 0 20px rgba(69, 52, 20, 0.5);
     padding: 40px;
     border-radius: 10px;
     color: #676767;
     line-height: 1.4;
+    background: white;
+    max-width: 600px;
 }
 
-.slide img{
+/* User profile image */
+.slide img {
     width: 65px;
     border-radius: 50%;
     border: 4px solid rgb(171, 72, 23);
     margin-right: 20px;
-
 }
 
-.user-info{
+/* User info section */
+.user-info {
     display: flex;
-   align-items: center;
-   margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 20px;
 }
-h3{
+
+h3 {
     color: black;
+}
+
+/* Swiper Pagination Dots */
+.swiper-pagination {
+    position: relative;
+    margin-top: 15px;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgb(171, 72, 23);
+    opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
 }

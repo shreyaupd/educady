@@ -3,7 +3,6 @@
   width: 100%;
   min-height: 100vh;
   background: url("../../assets/hero.jpg");
-  background-color: #1e1e1e;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11,18 +10,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.78;
 }
 
-.hero::before {
+.hero::before {  /* Or .hero::after */
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* Cover the entire hero section */
-  background: rgba(0, 0, 0, 0.6); /* Dark black overlay with opacity */
-  z-index: 1; /* Ensure it sits behind the hero-text */
+  height: 100%;
+  background-color: #6b614d; /* Your background color */
+  opacity: 0.56; /* Your desired opacity */
+  z-index: 0; /* Ensure it's behind the content */
 }
 
 .hero-text {
