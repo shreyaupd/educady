@@ -1,0 +1,62 @@
+.Contact {
+    display: flex;
+    margin-top: 80px;
+    padding: 50px 15px;
+    gap: 85px;
+  }
+  .text-part {
+    flex: 1;
+  }
+  .text-part h1 {
+    color: #0a5085;
+    margin-bottom: 20px;
+  }
+  
+  .text-part ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+  
+  .text-part ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #0a5085;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: rgb(254, 211, 155);
+   
+  }
+  

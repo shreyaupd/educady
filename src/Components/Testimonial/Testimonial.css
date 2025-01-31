@@ -1,5 +1,6 @@
 .Testimonial {
     margin: 80px auto;
+    margin-bottom: -20px;
     padding: 0 80px;
     position: relative;
     max-width: 800px; /* Ensures proper centering */
