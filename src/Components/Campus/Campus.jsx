@@ -25,7 +25,7 @@ const Campus = () => {
          <img src={gallery4}  alt="" />
        </div>
     </div>
-    <div className="btn">
+    <div className="btn2">
        <Button buttons='See More Here'/>
        </div>
     </>
